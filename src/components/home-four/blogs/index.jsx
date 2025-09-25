@@ -8,14 +8,14 @@ const blogsData = [
 		id: crypto.randomUUID(),
 		title: "How does business intelligence help companies change strategy?",
 		category: "Marketing",
-		date: "June 18, 2024",
+		date: "June 18, 2025",
 		img: Blog1Img,
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "Maximizing profits - the small business guide to Artificial Intelligence",
 		category: "Technology",
-		date: "June 18, 2024",
+		date: "June 18, 2025",
 		img: Blog2Img,
 	},
 ];

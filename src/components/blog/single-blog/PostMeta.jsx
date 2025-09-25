@@ -4,7 +4,7 @@ function PostMeta() {
 			<div className="post-category">
 				<a href="">Business</a>
 			</div>
-			<div className="post-date">June 18, 2024</div>
+			<div className="post-date">June 18, 2025</div>
 		</div>
 	);
 }

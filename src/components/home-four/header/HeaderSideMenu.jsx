@@ -61,7 +61,7 @@ function HeaderSideMenu({ showSideMenu, setShowSideMenu }) {
 						</ul>
 					</div>
 					<div className="aximo-copywright4 light">
-						<p>© Copyright 2024, All Rights Reserved by Void Craft Media</p>
+						<p>© Copyright 2025, All Rights Reserved by Void Craft Media</p>
 					</div>
 				</div>
 				<span className="aximo-sidemenu-close" onClick={() => setShowSideMenu(!showSideMenu)}>

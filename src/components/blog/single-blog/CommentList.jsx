@@ -16,7 +16,7 @@ const commentsData = [
 		comment:
 			"It is a long established fact that a reader will be distrac readable content of a page when looking at its layout. The point of using is that it has two.",
 		author: "Ricky Smith",
-		date: "June 21, 2024",
+		date: "June 21, 2025",
 		img: Team6Img,
 		children: true,
 	},
@@ -25,7 +25,7 @@ const commentsData = [
 		comment:
 			"It is a long established fact that a reader will be distra readable content of a page when looking its layout. The point of using.",
 		author: "Mark Jones",
-		date: "June 21, 2024",
+		date: "June 21, 2025",
 		img: Team7Img,
 		children: false,
 	},

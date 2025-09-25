@@ -8,7 +8,7 @@ const blogsData = [
 		title: "How to create a dramatic paint color for the home",
 		content: "At the beginning of a home redesign, the client said she found herself making much safer choices…",
 		category: "Home Decoration",
-		date: "June 15, 2024",
+		date: "June 15, 2025",
 		img: Blog1Img,
 	},
 	{
@@ -17,7 +17,7 @@ const blogsData = [
 		content:
 			"Of course, having a dedicated home office with ample storage, room for supplies, and a proper desk setup...",
 		category: "Office Interior",
-		date: "June 10, 2024",
+		date: "June 10, 2025",
 		img: Blog2Img,
 	},
 ];

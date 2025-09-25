@@ -6,19 +6,19 @@ const recentPostData = [
 	{
 		id: crypto.randomUUID(),
 		title: "7 businesses for easy money",
-		date: "June 18, 2024",
+		date: "June 18, 2025",
 		img: Blog1Img,
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "My 3 tips for business ideas",
-		date: "June 18, 2024",
+		date: "June 18, 2025",
 		img: Blog2Img,
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "12 Halloween costume ideas",
-		date: "June 18, 2024",
+		date: "June 18, 2025",
 		img: Blog3Img,
 	},
 ];

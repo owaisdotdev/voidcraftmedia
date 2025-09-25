@@ -13,7 +13,7 @@ function Footer() {
 					<div className="row">
 						<div className="col-xl-6">
 							<div className="aximo-copywright three">
-								<p>&copy;Copyright 2024, All Rights Reserved by Void Craft Media</p>
+								<p>&copy;Copyright 2025, All Rights Reserved by Void Craft Media</p>
 							</div>
 						</div>
 						<div className="col-xl-6">
