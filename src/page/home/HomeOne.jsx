@@ -27,9 +27,11 @@ const servicesData = [
 		longDescription:
 			"Our graphic design services cover everything from social media posts to professional marketing collateral. We help your brand communicate clearly with eye-catching and purposeful visuals.",
 		points: [
-			"Social Media Posts & Ads",
-			"Posters, Flyers & Banners",
-			"Thumbnails & Book Covers",
+			"Engaging social media posts & ads that drive interaction",
+			"Professional posters, flyers & banners for events and promotions",
+			"Eye-catching thumbnails & book covers that increase click-through rates",
+			"Custom illustrations & infographics that simplify complex information",
+			"Brand-consistent marketing materials that build recognition"
 		],
 	},
 	{
@@ -41,9 +43,11 @@ const servicesData = [
 		longDescription:
 			"We manage your social media end-to-end — from strategy and content calendars to execution. Our approach builds consistency, keeps audiences engaged, and grows your online influence.",
 		points: [
-			"Content Strategy & Planning",
-			"Post Scheduling & Publishing",
-			"Caption Writing & Hashtag Research",
+			"Strategic content planning aligned with your business goals",
+			"Daily post scheduling & publishing across all platforms",
+			"Engaging caption writing & strategic hashtag research",
+			"Audience engagement management to build community",
+			"Performance analytics & monthly growth reports"
 		],
 	},
 	{
@@ -55,9 +59,11 @@ const servicesData = [
 		longDescription:
 			"We help you create a unique brand identity that reflects your values and vision. From logos to complete design systems, we ensure your brand leaves a professional and lasting impression.",
 		points: [
-			"Logo Design",
-			"Brand Style Guides",
-			"Color Palettes & Typography",
+			"Memorable logo design that captures your brand essence",
+			"Comprehensive brand style guides for consistent application",
+			"Strategic color palettes & typography that evoke emotions",
+			"Brand voice & messaging guidelines",
+			"Complete brand asset kit for all your business needs"
 		],
 	},
 	{
@@ -69,9 +75,11 @@ const servicesData = [
 		longDescription:
 			"We design and develop websites that not only look good but also perform. Whether you need a personal portfolio, a corporate site, or a full-fledged e-commerce solution, we deliver with precision.",
 		points: [
-			"Portfolio Websites",
-			"Business Websites",
-			"Landing Pages & E-Commerce",
+			"Stunning portfolio websites that showcase your work effectively",
+			"Conversion-optimized business websites that generate leads",
+			"High-converting landing pages & e-commerce stores",
+			"Mobile-responsive designs that work on all devices",
+			"Fast-loading websites with SEO best practices built-in"
 		],
 	},
 	{
@@ -83,9 +91,11 @@ const servicesData = [
 		longDescription:
 			"Our content writing services cover everything from social media captions to long-form articles. We craft messaging that is clear, persuasive, and aligned with your brand voice.",
 		points: [
-			"Social Media Captions",
-			"Blog Posts & Articles",
-			"Website & Ad Copy",
+			"Compelling social media captions that drive engagement",
+			"SEO-optimized blog posts & articles that rank high in search",
+			"Persuasive website & ad copy that converts visitors",
+			"Email marketing content that builds customer relationships",
+			"Product descriptions that highlight benefits and features"
 		],
 	},
 	{
@@ -97,16 +107,15 @@ const servicesData = [
 		longDescription:
 			"We transform raw footage into polished, professional videos. From social media reels to full-length YouTube videos and branded promos, our editing adds impact and creativity.",
 		points: [
-			"Reels & YouTube Shorts",
-			"Long-form YouTube & Podcasts",
-			"Product Promos & Ads",
-			"Motion Graphics & Text Animations",
-			"Color Correction & Grading",
-			"Subtitles & Captions",
+			"Attention-grabbing Reels & YouTube Shorts optimized for virality",
+			"Professional long-form YouTube videos & podcast editing",
+			"High-converting product promos & advertisement videos",
+			"Dynamic motion graphics & text animations for brand recall",
+			"Expert color correction & grading for cinematic quality",
+			"Accessible subtitles & captions for wider audience reach"
 		],
 	},
 ];
-
 
 const teamsData = [
 	{

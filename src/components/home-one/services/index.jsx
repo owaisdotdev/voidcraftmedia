@@ -6,15 +6,19 @@ function Services({ services }) {
 		<div className="section aximo-section-padding4">
 			<div className="container">
 				<div className="aximo-section-title center">
-					<h2>
-						We provide effective
-						<span className="aximo-title-animation">
-							solutions 
-							<span className="aximo-title-icon">
-								<img src={Star2Img} alt="Star2Img" />
-							</span>
-						</span>
-					</h2>
+<h2>
+  Our&nbsp;
+  <span className="aximo-title-animation">
+    services&nbsp;
+    <span className="aximo-title-icon">
+    </span>
+     
+  </span>
+  that craft impact
+</h2>
+
+
+
 				</div>
 				<div className="aximo-service-wrap">
 					<div className="row">

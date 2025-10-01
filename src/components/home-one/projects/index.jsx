@@ -8,42 +8,48 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Mousewheel } from "swiper/modules";
 
 const projectsData = [
-	{
-		id: crypto.randomUUID(),
-		title: "Product Design",
-		description: "Developing the look and feel of physical products, aesthetics, and functionality.",
-		img: Project1Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description: "Creating or refreshing a company's logo and developing a cohesive visual identity.",
-		img: Project2Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "App UI/UX Design",
-		description: "Designing the UI/UXe for mobile apps and web applications to ensure usability & engagement.",
-		img: Project3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Packaging Design",
-		description: "Creating packaging solutions for products that not only protect attract customers on store.",
-		img: Project4Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Product Design",
-		description: "Developing the look and feel of physical products, aesthetics, and functionality.",
-		img: Project1Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description: "Creating or refreshing a company's logo and developing a cohesive visual identity.",
-		img: Project2Img,
-	},
+  {
+    id: crypto.randomUUID(),
+    title: "Graphic Design",
+    description:
+      "Creative designs that deliver strong visuals and make your brand instantly recognizable across every platform.",
+    img: Project1Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Social Media Management",
+    description:
+      "Complete social media management that builds consistency, drives engagement, and grows your online presence daily.",
+    img: Project2Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Branding & Identity",
+    description:
+      "Strategic branding solutions that craft a professional identity and leave a lasting impression on audiences.",
+    img: Project3Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Web Design & Development",
+    description:
+      "Modern web design and development services that ensure speed, responsiveness, and seamless digital experiences.",
+    img: Project4Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Content Writing",
+    description:
+      "Professional content writing tailored to engage readers, strengthen messaging, and convert audiences effectively.",
+    img: Project4Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Video Editing",
+    description:
+      "High-quality video editing that transforms raw footage into polished stories designed to inform and inspire.",
+    img: Project4Img,
+  },
 ];
 
 const swiperSettings = {
