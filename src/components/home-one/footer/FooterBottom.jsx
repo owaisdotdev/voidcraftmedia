@@ -1,4 +1,4 @@
-import LogoWhiteImg from "../../../assets/images/logo/logo-white.svg";
+import LogoWhiteImg from "/logo.png";
 function FooterBottom() {
 	return (
 		<>
@@ -9,9 +9,9 @@ function FooterBottom() {
 					</a>
 				</div>
 			</div>
-			<div className="col-lg-6">
+			<div style={{display: "flex", justifyContent: "center", alignContent: "center"}}  className="col-lg-6">
 				<div className="aximo-copywright one">
-					<p> &copy; Copyright 2025, All Rights Reserved by Void Craft Media</p>
+					<p style={{display: "flex", justifyContent: "center", alignContent: "center"}}> &copy; Copyright 2025, All Rights Reserved by Void Craft Media</p>
 				</div>
 			</div>
 		</>

@@ -14,7 +14,7 @@ function AboutCounter() {
 			<div className="aximo-counter-data">
 				<h2 className="aximo-counter-number">
 					<span className="aximo-counter">
-						<CountUp end={15} duration={3} redraw={true} enableScrollSpy />
+						<CountUp end={150} duration={3} redraw={true} enableScrollSpy />
 					</span>
 					+
 				</h2>

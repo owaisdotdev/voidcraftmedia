@@ -34,7 +34,7 @@ function ServiceCard({ service: { title, description, longDescription, icon, img
 						<div className="text-gray-300 mb-3">
 							<ul className="list-disc pl-5 space-y-2">
 								{points.map((point, index) => (
-									<li key={index}>{point}</li>
+									<li key={index}>○ {point}</li>
 								))}
 							</ul>
 						</div>

@@ -1,8 +1,8 @@
 import Star2Img from "../../../assets/images/v1/star2.png";
-import Thumb1Img from "../../../assets/images/v1/t_thumb1.png";
-import Thumb2Img from "../../../assets/images/v1/t_thumb2.png";
-import Thumb3Img from "../../../assets/images/v1/t_thumb3.png";
-import Thumb4Img from "../../../assets/images/v1/t_thumb4.png";
+import Thumb1Img from "/review1.jpg";
+import Thumb2Img from "/review2.jpg";
+import Thumb3Img from "/review3.jpg";
+import Thumb4Img from "/review4.jpg";
 import TestimonialCard from "./TestimonialCard";
 
 const testimonialsData = [
@@ -12,7 +12,7 @@ const testimonialsData = [
 		title: "Exceptional service and timely delivery",
 		description:
 			"I had a tight deadline for my project, but Void Craft Media handled everything flawlessly. Their team was quick, responsive, and very professional. The final design came out even better than I expected. Highly recommended!",
-		author: "Hamza Khan",
+		author: "Smith Johnson",
 		designation: "Co-Founder, The Coffee Room",
 		img: Thumb1Img,
 	},
@@ -32,7 +32,7 @@ const testimonialsData = [
 		title: "Creative, dedicated, and professional",
 		description:
 			"The team went above and beyond to bring my vision to life. They carefully listened to every detail and delivered designs that perfectly matched my brand's style. It's rare to find such a passionate and skilled group of professionals.",
-		author: "James Wilson",
+		author: "Sarah Wilson",
 		designation: "Marketing Lead, TechNova",
 		img: Thumb3Img,
 	},
@@ -42,7 +42,7 @@ const testimonialsData = [
 		title: "Great experience and quality work",
 		description:
 			"We hired Void Craft Media to redesign our social media visuals and website banners. Their creativity, attention to detail, and timely delivery made the process so smooth. The new visuals have received amazing feedback from our clients.",
-		author: "Ahmed Raza",
+		author: "Steven Jack",
 		designation: "Founder, Urban Styles",
 		img: Thumb4Img,
 	},

@@ -156,7 +156,7 @@ function HomeOne() {
 			<WhyChooseUs />
 			<Testimonial />
 			<AutoSlider />
-			<Teams teams={teamsData} />
+			{/* <Teams teams={teamsData} /> */}
 		</>
 	);
 }

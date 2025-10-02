@@ -4,13 +4,9 @@ function HeaderLogo() {
 	return (
 		<div className="brand-logo">
 			<Link style={{
-				color: "white",
-				fontSize: "24px",
-				fontWeight: "bold",
-				textDecoration: "none",
-				fontFamily: "Arial, sans-serif",
+			
 			}} to="/">
-				voidcraftmedia
+				<img  src="logo.png" alt="" />
 			</Link>
 		</div>
 	);

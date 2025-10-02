@@ -1,8 +1,10 @@
 import Star2Img from "../../../assets/images/v1/star2.png";
-import Project1Img from "../../../assets/images/v1/project1.png";
-import Project2Img from "../../../assets/images/v1/project2.png";
-import Project3Img from "../../../assets/images/v1/project3.png";
-import Project4Img from "../../../assets/images/v1/project4.png";
+import Project1Img from "/graphic.png";
+import Project2Img from "/social.png";
+import Project3Img from "/graphic.webp";
+import Project4Img from "/web.webp";
+import Project5Img from "/conent.avif";
+import Project6Img from "/video.jpg";
 import ProjectCard from "./ProjectCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Mousewheel } from "swiper/modules";
@@ -41,14 +43,14 @@ const projectsData = [
     title: "Content Writing",
     description:
       "Professional content writing tailored to engage readers, strengthen messaging, and convert audiences effectively.",
-    img: Project4Img,
+    img: Project5Img,
   },
   {
     id: crypto.randomUUID(),
     title: "Video Editing",
     description:
       "High-quality video editing that transforms raw footage into polished stories designed to inform and inspire.",
-    img: Project4Img,
+    img: Project6Img,
   },
 ];
 

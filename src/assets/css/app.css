@@ -2135,7 +2135,9 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 .aximo-footer-bottom.seven {
 	border-top: 1px solid rgba(11, 16, 64, 0.1);
 }
-
+.aximo-footer-logo {
+	width: 100px;
+}
 @media (max-width: 991px) {
 	.aximo-footer-logo {
 		text-align: center;
@@ -2145,9 +2147,14 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 
 .aximo-copywright.one {
 	text-align: right;
+
+	display: flex;
+
 }
 .aximo-copywright.one p {
 	color: #999;
+		align-items: center;
+			justify-content: center;
 }
 .aximo-copywright.two p {
 	color: var(--heading-color2);
@@ -7275,8 +7282,8 @@ img.aximo-video-circle {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 35.42%, #000 100%);
 }
 .aximo-project-thumb img {
-	width: 100%;
-	height: 100%;
+
+	height: 300px;
 	object-fit: cover;
 }
 .aximo-project-wrap {
