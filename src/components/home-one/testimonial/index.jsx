@@ -12,7 +12,7 @@ const testimonialsData = [
 		title: "Exceptional service and timely delivery",
 		description:
 			"I had a tight deadline for my project, but Void Craft Media handled everything flawlessly. Their team was quick, responsive, and very professional. The final design came out even better than I expected. Highly recommended!",
-		author: "Smith Johnson",
+		author: "Albert Flores",
 		designation: "Co-Founder, The Coffee Room",
 		img: Thumb1Img,
 	},
@@ -32,7 +32,7 @@ const testimonialsData = [
 		title: "Creative, dedicated, and professional",
 		description:
 			"The team went above and beyond to bring my vision to life. They carefully listened to every detail and delivered designs that perfectly matched my brand's style. It's rare to find such a passionate and skilled group of professionals.",
-		author: "Sarah Wilson",
+		author: "Olivia Johnson",
 		designation: "Marketing Lead, TechNova",
 		img: Thumb3Img,
 	},

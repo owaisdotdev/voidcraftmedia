@@ -6,7 +6,7 @@ function HeaderLogo() {
 			<Link style={{
 			
 			}} to="/">
-				<img  src="logo.png" alt="" />
+				<img className="logoResponsive"  src="logo.png" alt="" />
 			</Link>
 		</div>
 	);
