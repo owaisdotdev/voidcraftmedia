@@ -70,6 +70,9 @@ export default function ScrollToTop() {
 		flexDirection: "column",
 		alignItems: "center",
 		gap: 8,
+			// keep a known width so absolutely positioned list can align correctly
+			minWidth: 48,
+			minHeight: 48,
 	};
 
 	const mainBtnStyle = {
@@ -98,10 +101,22 @@ export default function ScrollToTop() {
 		textDecoration: "none",
 	};
 
+		// position the list absolutely so it always appears above the main button
+		const listStyle = {
+			position: "absolute",
+			bottom: 80, // main button (48) + gap (8)
+			right: 0,
+			display: "flex",
+			flexDirection: "column",
+			gap: 8,
+			alignItems: "center",
+			zIndex: 10000,
+		};
+
 	return (
 		<div ref={containerRef} style={containerStyle} className="aximo-go-top-wrapper">
-			{open && (
-				<div className="aximo-go-top-list" style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 8 }}>
+					{open && (
+						<div className="aximo-go-top-list" style={listStyle}>
 					{links.map((l) => (
 						<a
 							key={l.name}
