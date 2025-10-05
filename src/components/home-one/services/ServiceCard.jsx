@@ -5,7 +5,7 @@ function ServiceCard({ service: { title, description, longDescription, icon, img
 	const [expanded, setExpanded] = useState(false);
 
 	return (
-		<div className="col-lg-6">
+		<div id="services" className="col-lg-6">
 			<div
 				style={{ cursor: "pointer" }}
 				className={`aximo-iconbox-wrap transition-all duration-300 p-4 rounded-2xl shadow-sm hover:shadow-md ${
