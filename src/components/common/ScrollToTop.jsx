@@ -78,13 +78,11 @@ export default function ScrollToTop() {
 	const mainBtnStyle = {
 		width: 48,
 		height: 48,
-		borderRadius: "50%",
-		background: "#111",
 		color: "black",
 		display: "flex",
 		alignItems: "center",
 		justifyContent: "center",
-		boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+		// boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
 		cursor: "pointer",
 	};
 
@@ -140,7 +138,7 @@ export default function ScrollToTop() {
 				style={mainBtnStyle}
 				className="aximo-go-top"
 			>
-				<i className={open ? "fas fa-times" : "fas fa-share-alt"} />
+				<i className={open ? "fas fa-times" : "fas fa-link"} />
 			</button>
 		</div>
 	);

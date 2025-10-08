@@ -2574,15 +2574,39 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 	box-shadow: none;
 }
 .aximo-default-btn.aximo-header-btn {
-	height: 50px;
-	width: 150px;
-	padding: 0;
-	line-height: 47.5px;
-	color: var(--heading-color) !important;
-	border: 2px solid var(--heading-color);
-	box-shadow: 0px 4px 0px 0px var(--white-smoke);
-	background-color: var(--accent-bg);
+  height: 50px;
+  width: 250px;
+  padding: 0;
+  line-height: 47.5px;
+  color: var(--heading-color) !important;
+  border: 2px solid var(--heading-color);
+  box-shadow: 0px 4px 0px 0px var(--white-smoke);
+  background-color: var(--accent-bg);
+  border-radius: 50px; /* keep rounded for desktop */
+  transition: all 0.3s ease-in-out;
 }
+
+/* On mobile screens (up to 640px) make it circular */
+@media (max-width: 640px) {
+  .aximo-default-btn.aximo-header-btn {
+    width: 50px; /* make it a circle */
+    height: 50px;
+    border-radius: 50%; /* perfect circle */
+    line-height: 50px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Hide text on mobile */
+  
+  /* Center the icon perfectly */
+  .aximo-default-btn.aximo-header-btn i {
+    font-size: 18px;
+  }
+}
+
 .aximo-default-btn.aximo-header-btn:hover {
 	box-shadow: none;
 }

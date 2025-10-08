@@ -66,7 +66,7 @@ function FooterContent() {
 				<ul className="flex gap-4">
 					<li>
 						<a
-							href="https://www.instagram.com/"
+							href="https://www.instagram.com/voidcraftmedia_?igsh=Z3kyOW1hamp2bmRm"
 							target="_blank"
 							className="text-gray-300 hover:text-white transition"
 						>
@@ -75,7 +75,7 @@ function FooterContent() {
 					</li>
 					<li>
 						<a
-							href="https://www.linkedin.com/"
+							href="https://www.linkedin.com/company/voidcraftmedia/"
 							target="_blank"
 							className="text-gray-300 hover:text-white transition"
 						>
