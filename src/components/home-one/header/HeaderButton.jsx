@@ -20,11 +20,11 @@ function HeaderButton() {
         }}
       >
         {/* Visible only on extra-small screens */}
-        <i className="fas fa-phone d-inline d-sm-none" aria-hidden="true" />
-
+       
+<i className="icon-call text-white  bg-black p-2 rounded-5 d-sm-none"></i>
         {/* Visible on small and larger screens */}
         <span className="d-none d-sm-inline-flex align-items-center gap-2 m-0">
-          Book A Crafting Session <i className="fas fa-phone fa-sm ms-2" aria-hidden="true"></i>
+          Book A Crafting Session<i className="icon-call text-white  bg-black p-2 rounded-5"></i>
         </span>
       </a>
     </div>
