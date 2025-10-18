@@ -40,7 +40,9 @@ that leave a lasting mark.`}
 					<p>Believed by more than a thousand people</p>
 				</div>
 			</div>
-			<a href="#contact" className="aximo-call-btn">
+			<a  target="_blank"
+        rel="noopener noreferrer"
+        href="https://calendly.com/hey-voidcraftmedia/crafting-session?month=2025-10" className="aximo-call-btn">
 				Start Crafting<i className="icon-call"></i>
 			</a>
 			<div className="aximo-hero-shape">

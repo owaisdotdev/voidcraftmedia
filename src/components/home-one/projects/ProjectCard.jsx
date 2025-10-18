@@ -6,7 +6,7 @@ function ProjectCard({ project: { title, description, img } }) {
 				<img src={img} alt={title} />
 				<div className="aximo-project-wrap">
 					<div className="aximo-project-data">
-						<Link to="/single-portfolio">
+						<Link  href="#services">
 							<h3>{title}</h3>
 						</Link>
 						<p>{description}</p>
